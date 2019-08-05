@@ -5,12 +5,12 @@ I was asked to merge 12 files presumably webscraped from Yelp that detail unique
 **The Task**: A number of key variables were to be kept and harmonized and then merged together on a unique business_id variable.
 
 ## Setup
-Originally sent as CSV files, I was told that the files were actually JSON that were converted to CSV. Probably due to some problems with JSON -> CSV conversion, importing the CSVs into Stata resulted in a host of blank and unrecognizable datapoints. Thus I manually converted all CSV to XLSX. This fixed all importing problems.
+Originally sent as CSV files, I was told that the files were originally JSON that were converted to CSV. Probably due to some problems with JSON -> CSV conversion, importing the CSVs into Stata resulted in a host of blank and unrecognizable datapoints. Thus I manually converted all CSV to XLSX. This fixed all importing problems.
 
 ## Execution
 The starting files are
 
-	yelp\_business\_round`i'.dta
+	yelp\_business\_round`i'.XLSX
 		
 1. Harmonizing Variables
 
@@ -113,4 +113,3 @@ After merging, I noticed that in the end, I was getting no observations.
 	|13|	128752|
 
 ## Conclusion
-As of today [8/3/2019] I sent the data off to Jiyeon and who will ask Hao what to do next. 
