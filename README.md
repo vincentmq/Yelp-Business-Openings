@@ -99,18 +99,18 @@ After merging, I noticed that in the end, I was getting no observations.
 
 	|round	|merge==3 when merging 2 to 8 / 9 to 13|
 	|:---|:---|
-|2|	*start*|
-|3|	9544|
-|4|	9344|
-|5|	9223|
-|6|	9223|
-|7|	9071|
-|8|	8940|
-|9|	*start*|
-|10|	140175|
-|11|	139320|
-|12|	131565|
-|13|	128752|
+	|2|	*start*|
+	|3|	9544|
+	|4|	9344|
+	|5|	9223|
+	|6|	9223|
+	|7|	9071|
+	|8|	8940|
+	|9|	*start*|
+	|10|	140175|
+	|11|	139320|
+	|12|	131565|
+	|13|	128752|
 
 ## Conclusion
 As of today [8/3/2019] I sent the data off to Jiyeon and who will ask Hao what to do next. 
