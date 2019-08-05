@@ -1,13 +1,13 @@
 # Yelp-Business-Openings
-##Background
+## Background
 I was asked to merge 12 files presumably webscraped from Yelp that detail unique business information. The 12 files represent 12 "rounds". These rounds are presumed to be survey rounds.
 
 **The Task**: A number of key variables were to be kept and harmonized and then merged together on a unique business_id variable.
 
-##Setup
+## Setup
 Originally sent as CSV files, I was told that the files were actually JSON that were converted to CSV. Probably due to some problems with JSON -> CSV conversion, importing the CSVs into Stata resulted in a host of blank and unrecognizable datapoints. Thus I manually converted all CSV to XLSX. This fixed all importing problems.
 
-##Execution
+## Execution
 The starting files are
 
 	yelp\_business\_round`i'.dta
@@ -112,5 +112,5 @@ After merging, I noticed that in the end, I was getting no observations.
 |12|	131565|
 |13|	128752|
 
-##Conclusion
+## Conclusion
 As of today [8/3/2019] I sent the data off to Jiyeon and who will ask Hao what to do next. 
